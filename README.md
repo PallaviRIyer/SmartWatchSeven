@@ -2,6 +2,11 @@
  
 一UI design for Smart Watch in OpenHarmony.
 
+The SmartWatch_7 UI library is developed for developing Smart Watch consoles.UI was designed using hml(HarmonyOS
+markup language ) and CSS(cascading style sheets). The functionalities were added using
+Javascript .
+The library is capable fetching details like date, time , weather from API’s available for the
+same. Other details like calories, footsteps is been fetched from the data layer.
 
 ## Smart Watch 7 Design :
 
@@ -19,6 +24,16 @@ The smart watch seven has the following functionalities
 
 4.Displays calories burnt by user.
 
+## Directory Structure:
+
+<img width="238" alt="image" src="https://user-images.githubusercontent.com/105449448/175220657-bdb04224-54fb-4f49-8386-64ad075b556d.png">
+
+## Usage 
+The library could be used by anyone who is planning to develop a UI for a Smart Watch console.
+The design could be directly cloned.
+The details like notifications and user location for weather could be altered by manipulating the
+data layer.
+Which would directly reflect in the library.
 
 ## Compatibility:
 Supports OpenHarmony API version 6
