@@ -36,7 +36,7 @@ data layer.
 Which would directly reflect in the library.
 
 ## Compatibility:
-Supports OpenHarmony API version 6
+Supports OpenHarmony API version 8
 
 
 ## Open source License
