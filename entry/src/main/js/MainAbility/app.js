@@ -13,9 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import ability_featureAbility from '@ohos.ability.featureAbility'
-
 export default {
     onCreate() {
         console.info('AceApplication onCreate');
@@ -25,15 +22,3 @@ export default {
         console.info('AceApplication onDestroy');
     }
 };
-
-function requestPermission() {
-    var context = ability_featureAbility.getContext();
-    let permissions = ["ohos.permission.ACTIVITY_MOTION"];
-    let requestCode = 123
-    context.requestPermissionsFromUser(permissions, requestCode)
-        .then((data) => {
-            console.info('Permission Granted')
-        }).catch((error) => {
-        console.error('Permission Denied')
-    })
-}
